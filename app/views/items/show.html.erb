@@ -1,0 +1,31 @@
+<div style="height:70vh; display:flex; justify-content:space-around;margin-bottom:10vh;  ">
+<div class="card" style="width: 40rem;">
+<%= image_tag ("4.jpg") %>
+<h6>@Copyright</h6>
+ 
+  
+</div>
+<div class="card" style="width: 40rem;">
+
+ 
+  <div class="card-body">
+    <h3 class="card-title" style="display:flex; justify-content:center"><strong><%= @item.title %></strong></h3>
+    </br>
+    </br>
+    <h4><strong>Description</strong></h4>
+    <p class="card-text"><%= @item.description %></p>
+    </br>
+    </br>
+    <h4><strong>Prix</strong></h4>
+    <p class="card-text"><%= @item.price %>€</p>
+    </br>
+    </br>
+  
+    <%= link_to "Add to cart", new_cart_path, class: "btn btn-primary" %>
+	<% if !!current_user %>
+	<%= button_to "Ajouter au panier", user_cart_path(current_user.cart.id), method: "put", params: { :item_id => @item.id } %>
+	<% end %>
+  </div>
+</div>
+</div>
+

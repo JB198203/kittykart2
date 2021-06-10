@@ -1,0 +1,26 @@
+
+<div style="height:70vh; display:flex; justify-content:space-around;margin-bottom:10vh;  ">
+<div class="card" style="width: 40rem;">
+<%= image_tag ("maneki_neko.jpg") %>
+</div>
+<div class="card" style="width: 40rem;">
+
+
+ 
+  
+  
+  <div class="card-body">
+    <h3 class="card-title" style="display:flex; justify-content:center"><strong> <%= @user.email %><%= @user.first_name %></strong><%= @user.last_name %></h3>
+    </br>
+    </br>
+    <h4><strong>Date de Creation</strong></h4>
+    <p class="card-text"><%= @user.created_at %></p>
+    </br>
+    </br>
+
+
+  </div>
+</div>
+</div>
+
+
