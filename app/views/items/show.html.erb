@@ -21,10 +21,12 @@
     </br>
     </br>
   
-    <%= link_to "Add to cart", new_cart_path, class: "btn btn-primary" %>
-	<% if !!current_user %>
-	<%= button_to "Ajouter au panier", user_cart_path(current_user.cart.id), method: "put", params: { :item_id => @item.id } %>
-	<% end %>
+    
+  	<% if !!current_user %>
+      <%= link_to "Add to cart", cart_path, class: "btn btn-primary" %>
+    <% else %>
+      <%= link_to "Add to cart", new_user_registration_path, class: "btn btn-primary" %>
+	  <% end %>
   </div>
 </div>
 </div>
