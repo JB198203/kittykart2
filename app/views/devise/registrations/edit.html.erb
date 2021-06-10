@@ -1,4 +1,25 @@
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<body>
+
+<div class="jumbotron jumbotron2-hero">
+<div class="containerMain">
+  <br>
+  <right><h2>MEE<strong>OOO</strong>W</h2></right>
+    <right><h6>*just <strong> Edit up</strong> and join N<strong>OOO</strong>W !</h6></right>
+  </div>
+</div>
+
+
+
+
+<div style="height:10vh; display:flex; justify-content:center;"   >
+<div style="display: flex ;justify-content:center">
+<h2><strong>Edit <%= resource_name.to_s.humanize %></strong></h2>
+</div>
+</div>
+
+<div style="height:40vh; display:flex; justify-content:center;margin-bottom:10vh;padding-left:40vh;"
+ <div >
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
@@ -30,14 +51,26 @@
     <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
+  </br >
+  </br >
 
   <div class="actions">
+  <div style="justify-content:center"
     <%= f.submit "Update" %>
   </div>
+  </div>
 <% end %>
-
-<h3>Cancel my account</h3>
-
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
-
-<%= link_to "Back", :back %>
+</div>
+  <br />
+  <br />
+</div>
+<div style="display:flex; justify-content:center">
+<h3><strong>Cancel my account</strong></h3>
+</div>
+ <p>
+<div style="display:flex; justify-content:center; padding-bottom:10px;">
+<br><%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+</div>
+</div>
+</body>
+<!-- IL FAUT ABOSLUMENT RAJOUTER LA BIO (DESCRIPTION ) ainsi que la photo et les noms de user pour le show-->
