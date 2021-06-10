@@ -413,7 +413,7 @@ select {
 }
 
 [role="button"] {
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
 }
 
 select {
@@ -439,7 +439,7 @@ button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
 }
 
 ::-moz-focus-inner {
@@ -533,7 +533,7 @@ iframe {
 
 summary {
     display: list-item;
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
 }
 
 progress {
@@ -2222,7 +2222,7 @@ progress {
 }
 
 .form-control[type="file"]:not(:disabled):not([readonly]) {
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
 }
 
 .form-control:focus {
@@ -2276,7 +2276,7 @@ progress {
     margin-inline-end: 0.75rem;
     color: #888;
     background-color: #f7f7f9;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     border-color: inherit;
     border-style: solid;
     border-width: 0;
@@ -2302,7 +2302,7 @@ progress {
     margin-inline-end: 0.75rem;
     color: #888;
     background-color: #f7f7f9;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     border-color: inherit;
     border-style: solid;
     border-width: 0;
@@ -2404,7 +2404,7 @@ textarea.form-control-lg {
 }
 
 .form-control-color:not(:disabled):not([readonly]) {
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
 }
 
 .form-control-color::-moz-color-swatch {
@@ -2540,7 +2540,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input:disabled {
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     -webkit-filter: none;
     filter: none;
     opacity: 0.5;
@@ -2587,12 +2587,12 @@ textarea.form-control-lg {
 .btn-check {
     position: absolute;
     clip: rect(0, 0, 0, 0);
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
 }
 
 .btn-check[disabled]+.btn,
 .btn-check:disabled+.btn {
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     -webkit-filter: none;
     filter: none;
     opacity: 0.65;
@@ -2652,7 +2652,7 @@ textarea.form-control-lg {
     width: 100%;
     height: 0.5rem;
     color: transparent;
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
     background-color: #eceeef;
     border-color: transparent;
     border-radius: 1rem;
@@ -2685,14 +2685,14 @@ textarea.form-control-lg {
     width: 100%;
     height: 0.5rem;
     color: transparent;
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
     background-color: #eceeef;
     border-color: transparent;
     border-radius: 1rem;
 }
 
 .form-range:disabled {
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
 }
 
 .form-range:disabled::-webkit-slider-thumb {
@@ -2719,7 +2719,7 @@ textarea.form-control-lg {
     left: 0;
     height: 100%;
     padding: 1rem 0.75rem;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     border: 1px solid transparent;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
@@ -3124,7 +3124,7 @@ textarea.form-control.is-invalid {
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -3156,7 +3156,7 @@ textarea.form-control.is-invalid {
 .btn:disabled,
 .btn.disabled,
 fieldset:disabled .btn {
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     opacity: 0.65;
 }
 
@@ -4198,7 +4198,7 @@ fieldset:disabled .btn {
 .dropdown-item.disabled,
 .dropdown-item:disabled {
     color: #aaa;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     background-color: transparent;
 }
 
@@ -4410,7 +4410,7 @@ fieldset:disabled .btn {
 
 .nav-link.disabled {
     color: #888;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     cursor: default;
 }
 
@@ -5276,7 +5276,7 @@ fieldset:disabled .btn {
 
 .page-item.disabled .page-link {
     color: #fff;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     background-color: #cce8e0;
     border-color: #cce8e0;
 }
@@ -5577,7 +5577,7 @@ fieldset:disabled .btn {
 .list-group-item.disabled,
 .list-group-item:disabled {
     color: #888;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     background-color: #fff;
 }
 
@@ -5930,7 +5930,7 @@ fieldset:disabled .btn {
 
 .btn-close:disabled,
 .btn-close.disabled {
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -5947,7 +5947,7 @@ fieldset:disabled .btn {
     width: 350px;
     max-width: 100%;
     font-size: 0.875rem;
-    pointer-events: auto;
+    <i class="fas fa-paw">-events: auto;
     background-color: rgba(255, 255, 255, 0.85);
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -5968,7 +5968,7 @@ fieldset:disabled .btn {
     width: -moz-max-content;
     width: max-content;
     max-width: 100%;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
 }
 
 .toast-container> :not(:last-child) {
@@ -6016,7 +6016,7 @@ fieldset:disabled .btn {
     position: relative;
     width: auto;
     margin: 0.5rem;
-    pointer-events: none;
+    <i class="fas fa-paw">-events: none;
 }
 
 .modal.fade .modal-dialog {
@@ -6071,7 +6071,7 @@ fieldset:disabled .btn {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    pointer-events: auto;
+    <i class="fas fa-paw">-events: auto;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -6794,7 +6794,7 @@ fieldset:disabled .btn {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    cursor: pointer;
+    cursor: <i class="fas fa-paw">;
     background-color: #fff;
     background-clip: padding-box;
     border: 0;
@@ -8466,11 +8466,11 @@ fieldset:disabled .btn {
 }
 
 .pe-none {
-    pointer-events: none !important;
+    <i class="fas fa-paw">-events: none !important;
 }
 
 .pe-auto {
-    pointer-events: auto !important;
+    <i class="fas fa-paw">-events: auto !important;
 }
 
 .rounded {
